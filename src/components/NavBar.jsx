@@ -1,15 +1,18 @@
-import React from 'react'
-
-import { Link } from 'react-router-dom'
+import React from "react";
 
 const NavBar = () => {
-    return (
-        <div>
-            <nav className='navbar navbar-dark bg-dark'>
-                <Link className='navbar-brand' to='localhost'>Movie DB</Link>
-            </nav>
-        </div>
-    )
-}
+   return (
+      <div>
+         <nav
+            className="navbar navbar-dark bg-dark"
+            style={{ padding: "1% 50%" }}
+         >
+            <a className="navbar-brand" href="localhost">
+               Movie App
+            </a>
+         </nav>
+      </div>
+   );
+};
 
-export default NavBar
+export default NavBar;

@@ -1,15 +1,16 @@
-import "./App.css";
+import React from "react";
 
+import { Link } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import MovieList from "./components/MovieList";
 
-function App() {
+const App = () => {
    return (
-      <div className="App">
-         <NavBar></NavBar>
-         <MovieList></MovieList>
+      <div>
+         <NavBar />
+         <MovieList />
       </div>
    );
-}
+};
 
 export default App;
